@@ -1,18 +1,22 @@
 
-Govcode
+Healthcarecode.org
 =============
 
-[![wercker status](https://app.wercker.com/status/a02fb4fa99d40f8de4e90722491b7c2a/s "wercker status")](https://app.wercker.com/project/bykey/a02fb4fa99d40f8de4e90722491b7c2a)
+Healthcarecode.org is a fork of [govcode.org](https://github.com/dlapiduz/govcode.org).
 
-## What is this?
+From the [Govcode.org REAMDE](https://github.com/dlapiduz/govcode.org/blob/master/README.md):
 
-Govcode is an application that lists government open source projects.
-The purpose is to track what is being worked on and build analytics on top of it.
+> Govcode.org is an application that lists government open source projects. The purpose is to track what is being worked on and build analytics on top of it.
 
-![index page](screenshots/govcode.png "Index Page")
-![api documentation](govcoded/README.md "API documentation")
+Healthcarecode.org is meant to provide the same type of service, except for open source projects specific to healthcare — including, but not limited to:
+  - health informatics research,
+  - open health data, and
+  - mHealth.
 
-## How to run it?
+Since this is a fork of [govcode.org](https://github.com/dlapiduz/govcode.org), I've copied Govcode's installation instructions below.
+
+
+## Running locally
 
 This application is structured as an API and a front end. The `common`, `govcode` and `govcoded` directories
 hold the API code while the `front` directory holds the front end.
@@ -72,8 +76,10 @@ If you see an error about `compass` you might need to install the [compass ruby 
 
 ## Contributing
 
-All contributions are welcome. You might want to create an issue describing what you want to work on
-to make sure the is no duplication.
+All contributions are welcome.
+ 
+Please create an issue describing what you want to work on
+to avoid duplicate efforts.
 
 ## License
 
