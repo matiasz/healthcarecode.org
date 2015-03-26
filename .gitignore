@@ -1,7 +1,8 @@
-govcode/govcode
-govcoded/govcoded
+healthcarecode/healthcarecode
+healthcarecoded/healthcarecoded
 .env
 node_modules
 .DS_Store
 gin-bin
 .wercker
+.idea/
